@@ -1,0 +1,56 @@
+### Attribution ###
+# Template from https://github.com/github/gitignore/blob/main/C.gitignore
+
+### C ###
+# Prerequisites
+*.d
+
+# Object Files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker Output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared Objects
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug Files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
