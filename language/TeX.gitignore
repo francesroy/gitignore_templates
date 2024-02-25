@@ -1,0 +1,288 @@
+### Attribution ###
+# Template from https://github.com/github/gitignore/blob/main/TeX.gitignore
+
+### TeX ###
+# Core LaTeX/PDFLaTeX Auxiliary Files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Intermediate Documents
+*.dvi
+*.xdv
+*-converted-to.*
+
+# Generated if empty string is given at "Please type another file name for output:"
+.pdf
+
+# Bibliography Auxiliary Files
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Build Tool Auxiliary Files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# LaTeXrun
+latex.out/
+
+# Algorithms
+*.alg
+*.loa
+
+# Achemso
+acs-*.bib
+
+# Amsthm
+*.thm
+
+# Beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# Changes
+*.soc
+
+# Comment
+*.cut
+
+# Cprotect
+*.cpt
+
+# Elsarticle
+*.spl
+
+# Endnotes
+*.ent
+
+# Fixme
+*.lox
+
+# Feynmf/Feynmp
+*.mf
+*.mp
+*.t[1-9]
+*.t[1-9][0-9]
+*.tfm
+
+#(r)(e)ledmac/(r)(e)ledpar
+*.end
+*.?end
+*.[1-9]
+*.[1-9][0-9]
+*.[1-9][0-9][0-9]
+*.[1-9]R
+*.[1-9][0-9]R
+*.[1-9][0-9][0-9]R
+*.eledsec[1-9]
+*.eledsec[1-9]R
+*.eledsec[1-9][0-9]
+*.eledsec[1-9][0-9]R
+*.eledsec[1-9][0-9][0-9]
+*.eledsec[1-9][0-9][0-9]R
+
+# Glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+*.slg
+*.slo
+*.sls
+
+# Gnuplot
+*.gnuplot
+*.table
+
+# Gnuplottex
+*-gnuplottex-*
+
+# Gregoriotex
+*.gaux
+*.glog
+*.gtex
+
+# Htlatex
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.trc
+*.xref
+
+# Hyperref
+*.brf
+
+# Knitr
+*-concordance.tex
+*-tikzDictionary
+
+# Listings
+*.lol
+
+# Luatexja-ruby
+*.ltjruby
+
+# Makeidx
+*.idx
+*.ilg
+*.ind
+
+# Minitoc
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+
+# Minted
+_minted*
+*.pyg
+
+# Morewrites
+*.mw
+
+# Newpax
+*.newpax
+
+# Nomencl
+*.nlg
+*.nlo
+*.nls
+
+# Pax
+*.pax
+
+# Pdfpcnotes
+*.pdfpc
+
+# Sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# Scrwfile
+*.wrt
+
+# Svg
+svg-inkscape/
+
+# Sympy
+*.sout
+*.sympy
+sympy-plots-for-*.tex/
+
+# Pdfcomment
+*.upa
+*.upb
+
+# Pythontex
+*.pytxcode
+pythontex-files-*/
+
+# Tcolorbox
+*.listing
+
+# Thmtools
+*.loe
+
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
+# Titletoc
+*.ptc
+
+# Todonotes
+*.tdo
+
+# Vhistory
+*.hst
+*.ver
+
+# Easy-Todo
+*.lod
+
+# Xcolor
+*.xcp
+
+# Xmpincl
+*.xmpi
+
+# Xindy
+*.xdy
+
+# Xypic Precompiled Matrices and Outlines
+*.xyc
+*.xyd
+
+# Endfloat
+*.ttt
+*.fff
+
+# Latexian
+TSWLatexianTemp*
+
+# WinEdt
+*.bak
+*.sav
+
+# Texpad
+.texpadtmp
+
+# LyX
+*.lyx~
+
+# Kile
+*.backup
+
+# Gummi
+.*.swp
+
+# KBibTeX
+*~[0-9]*
+
+# TeXnicCenter
+*.tps
+
+# Auto Folder for Emacs and Auctex
+./auto/*
+*.el
+
+# Expex Forward References (\gathertags)
+*-tags.tex
+
+# Standalone Packages
+*.sta
+
+# Makeindex Log Files
+*.lpz
+
+# Xwatermark Package
+*.xwm
